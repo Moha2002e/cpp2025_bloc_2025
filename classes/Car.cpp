@@ -1,8 +1,12 @@
 #include "Car.h"
 #include <iostream>
 #include <algorithm>
+#include <cstring>
+using std::cout;
+using std::endl;
 
 using namespace carconfig;
+
 
 void Car::initOptions() {
     for (int i = 0; i < 5; ++i) options[i] = nullptr;
